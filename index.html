@@ -8,6 +8,16 @@
     <title></title>
   </head>
   <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.jpg" alt="Logo" width="100" height="54" class="d-inline-block align-text-top">
+          Aerolinea Los hermanos
+        </a>
+      </div>
+    </nav>
+
+
     <script src="https://kit.fontawesome.com/401cbb8deb.js" crossorigin="anonymous"></script>
     <ul id="nav" style="margin-top: 5px;" class="nav nav-tabs">
       <li class="nav-item" >
@@ -90,48 +100,75 @@
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<article class="articulo">
+<!---->
   <center> <p id="sorpresa">Viajes Sorpresas</p></center>
-  <div class="">
-    <img src="" alt="">
+<article style="display: flex;" class="articulo">
+
+  <div class="card" style="margin-left: 35px; margin-top: 15px; width: 18rem;">
+    <img src="img/pregunta.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Paquete Sorpresa</h5>
+      <h6 class="card-title">Europa</h6>
+      <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
+      <a href="#" class="btn btn-primary" style="width: 100px; height: 38px;">Comprar</a>
+      <a href="#" style="margin-left:10px;" class="btn btn-primary" onclick="info()">Mas Info</a>
+
+    </div>
   </div>
+
+  <div class="card" style="margin-left: 35px; margin-top: 15px; width: 18rem;">
+    <img src="img/pregunta.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Paquete Sorpresa</h5>
+      <h6 class="card-title">Asia</h6>
+      <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
+      <a href="#" class="btn btn-primary" style="width: 100px; height: 38px;">Comprar</a>
+      <a href="#" style="margin-left:10px;" class="btn btn-primary" onclick="info()">Mas Info</a>
+    </div>
+  </div>
+
+  <div class="card" style="margin-left: 35px; margin-top: 15px; width: 18rem;">
+    <img src="img/pregunta.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Paquete Sorpresa</h5>
+      <h6 class="card-title">Oceania</h6>
+      <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
+      <a href="#" class="btn btn-primary" style="width: 100px; height: 38px;">Comprar</a>
+      <a href="#" style="margin-left:10px;" class="btn btn-primary" onclick="info()">Mas Info</a>
+    </div>
+  </div>
+
+  <div class="card" style="margin-left: 35px; margin-top: 15px; width: 18rem;">
+    <img src="img/pregunta.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Paquete Sorpresa</h5>
+      <h6 class="card-title">Africa</h6>
+      <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
+      <a href="#" class="btn btn-primary" style="width: 100px; height: 38px;">Comprar</a>
+      <a href="#" style="margin-left:10px;" class="btn btn-primary" onclick="info()">Mas Info</a>
+    </div>
+  </div>
+
+  <div class="card" style="margin-left: 35px; margin-right: 35px; margin-top: 15px; width: 18rem;">
+    <img src="img/pregunta.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Paquete Sorpresa</h5>
+      <h6 class="card-title">America</h6>
+      <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
+      <a href="#" class="btn btn-primary" style="width: 100px; height: 38px;">Comprar</a>
+      <a href="#" style="margin-left:10px;" class="btn btn-primary" onclick="info()">Mas Info</a>
+    </div>
+  </div>
+
 </article>
 
 
 <script type="text/javascript">
-    function hoteles(){
-      let hotel=open();
-      hotel.document.write("aca iria hotel etc")
-    }
+function info(){
+  let inf=open('','Informacio','status=yes width=500 height=300 menubar=yes top=300 left=500');
+  inf.document.write("Estos son paquetes los cuales pueden contener viajes a cualquier parte del continente que seleccione, los viajes pueden ser abonados de forma presencial, de forma virtual o incluso mediante señales de humo.<br>Estos tipos de viajes son muy utiles para las personas que les gusta los viajes espontaneos y divertidos<br><br><br><br>!Gracias por confiar en nuestra aerolinea!");
+}
+
     function sesion(){
       let session = open('','','status=yes width=700 height=500 menubar=yes');
       session.document.write('<center>');
