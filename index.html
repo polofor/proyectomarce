@@ -14,6 +14,13 @@
           <img src="img/logo.jpg" alt="Logo" width="100" height="54" class="d-inline-block align-text-top">
           Aerolinea Los hermanos
         </a>
+        <button type="button" class="btn" style="position: relative;">
+              Carrito
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  0
+                  <span class="visually-hidden">unread messages</span>
+              </span>
+          </button>
       </div>
     </nav>
 
@@ -33,7 +40,7 @@
         <a class="nav-link" href="#" onclick="hoteles()">Alojamientos <i class="fa-solid fa-building"></i></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" onclick="sesion()"> Formas de pago <i class="fa-brands fa-paypal"></i></a>
+        <a class="nav-link" href="#" onclick="pago()"> Formas de pago <i class="fa-brands fa-paypal"></i></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#sorpresa"> Paquetes al azar </i></a>
@@ -100,7 +107,8 @@
 </div>
 
 
-<!---->
+<!--Viajes Sopresa------------------------------------------------------------------------------------------------------------------------->
+<br>
   <center> <p id="sorpresa">Viajes Sorpresas</p></center>
 <article style="display: flex;" class="articulo">
 
@@ -110,8 +118,28 @@
       <h5 class="card-title">Paquete Sorpresa</h5>
       <h6 class="card-title">Europa</h6>
       <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
-      <a href="#" class="btn btn-primary" style="width: 100px; height: 38px;">Comprar</a>
-      <a href="#" style="margin-left:10px;" class="btn btn-primary" onclick="info()">Mas Info</a>
+      <a href="#" class="btn" style="width: 100px; height: 38px;">Comprar</a>
+      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Mas info
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Informacion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Estos son paquetes los cuales pueden contener viajes a cualquier parte del continente que seleccione, los viajes pueden ser abonados de forma presencial, de forma virtual o incluso mediante señales de humo.<br>Estos tipos de viajes son muy utiles para las personas que les gusta los viajes espontaneos y divertidos<br><br><br><br>!Gracias por confiar en nuestra aerolinea!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>
@@ -122,8 +150,28 @@
       <h5 class="card-title">Paquete Sorpresa</h5>
       <h6 class="card-title">Asia</h6>
       <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
-      <a href="#" class="btn btn-primary" style="width: 100px; height: 38px;">Comprar</a>
-      <a href="#" style="margin-left:10px;" class="btn btn-primary" onclick="info()">Mas Info</a>
+      <a href="#" class="btn" style="width: 100px; height: 38px;">Comprar</a>
+      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Mas info
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Informacion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Estos son paquetes los cuales pueden contener viajes a cualquier parte del continente que seleccione, los viajes pueden ser abonados de forma presencial, de forma virtual o incluso mediante señales de humo.<br>Estos tipos de viajes son muy utiles para las personas que les gusta los viajes espontaneos y divertidos<br><br><br><br>!Gracias por confiar en nuestra aerolinea!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -133,8 +181,29 @@
       <h5 class="card-title">Paquete Sorpresa</h5>
       <h6 class="card-title">Oceania</h6>
       <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
-      <a href="#" class="btn btn-primary" style="width: 100px; height: 38px;">Comprar</a>
-      <a href="#" style="margin-left:10px;" class="btn btn-primary" onclick="info()">Mas Info</a>
+      <a href="#" class="btn" style="width: 100px; height: 38px;">Comprar</a>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Mas info
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Informacion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Estos son paquetes los cuales pueden contener viajes a cualquier parte del continente que seleccione, los viajes pueden ser abonados de forma presencial, de forma virtual o incluso mediante señales de humo.<br>Estos tipos de viajes son muy utiles para las personas que les gusta los viajes espontaneos y divertidos<br><br><br><br>!Gracias por confiar en nuestra aerolinea!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -144,8 +213,28 @@
       <h5 class="card-title">Paquete Sorpresa</h5>
       <h6 class="card-title">Africa</h6>
       <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
-      <a href="#" class="btn btn-primary" style="width: 100px; height: 38px;">Comprar</a>
-      <a href="#" style="margin-left:10px;" class="btn btn-primary" onclick="info()">Mas Info</a>
+      <a href="#" class="btn" style="width: 100px; height: 38px;">Comprar</a>
+      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Mas info
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Informacion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Estos son paquetes los cuales pueden contener viajes a cualquier parte del continente que seleccione, los viajes pueden ser abonados de forma presencial, de forma virtual o incluso mediante señales de humo.<br>Estos tipos de viajes son muy utiles para las personas que les gusta los viajes espontaneos y divertidos<br><br><br><br>!Gracias por confiar en nuestra aerolinea!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -155,8 +244,28 @@
       <h5 class="card-title">Paquete Sorpresa</h5>
       <h6 class="card-title">America</h6>
       <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
-      <a href="#" class="btn btn-primary" style="width: 100px; height: 38px;">Comprar</a>
-      <a href="#" style="margin-left:10px;" class="btn btn-primary" onclick="info()">Mas Info</a>
+      <a href="#" class="btn" style="width: 100px; height: 38px;">Comprar</a>
+      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Mas info
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Informacion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Estos son paquetes los cuales pueden contener viajes a cualquier parte del continente que seleccione, los viajes pueden ser abonados de forma presencial, de forma virtual o incluso mediante señales de humo.<br>Estos tipos de viajes son muy utiles para las personas que les gusta los viajes espontaneos y divertidos<br><br><br><br>!Gracias por confiar en nuestra aerolinea!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -182,6 +291,14 @@ function info(){
       session.document.write('Ingrese la Contraseña');
       session.document.write('<br>');
       session.document.write('<input type="password" value="">');
+    }
+
+    function pago(){
+      let paga=open('','Informacio','status=yes width=500 height=300 menubar=yes top=300 left=500')
+      paga.document.write("!Aqui podras ver las formas de pago y las instrucciones de como pagar¡");
+
+
+
     }
     </script>
   </body>
