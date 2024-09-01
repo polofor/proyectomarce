@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/index.css">
+    <title></title>
+  </head>
+  <body>
+    <script src="https://kit.fontawesome.com/401cbb8deb.js" crossorigin="anonymous"></script>
+    <ul id="nav" style="margin-top: 5px;" class="nav nav-tabs">
+      <li class="nav-item" >
+        <a id="nav" class="nav-link active" aria-current="page" href="#">Destinos <i class="fa-brands fa-accessible-icon"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ofertas <i class="fa-brands fa-shopify"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Autos <i class="fa-solid fa-car-rear"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="hoteles()">Alojamientos <i class="fa-solid fa-building"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="sesion()"> Formas de pago <i class="fa-brands fa-paypal"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sorpresa"> Paquetes al azar </i></a>
+      </li>
+      <input id="nav" style="margin-left: 100px;" type="search" name="" value="Buscador">
+      <button id="nav" style="margin-left: 100px;" type="button"name="button" onclick="sesion()">Iniciar Session</button>
+    </ul>
+
+<br>
+
+
+  <center> <p style="font-size: 22px; font-family: serif;">Lugares Mas Visitados</p></center>
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="img/baires.jpg" class="w-100" alt="...">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Argentina</h5>
+          <p>Buenos Aires lugar del obelisco, se encuentra en el pais de Argentina, donde el futbol se vive con una pasion distinta, casa del mejor asado del mundo</p>
+          <a href="" class="stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="img/peru.jpg" class="w-100" alt="...">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Peru</h5>
+          <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+          <a href="#" class="stretched-link">Go somewhere</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="carousel-item">
+      <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="img/petra.jpg" class="w-100" alt="...">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Jordania</h5>
+          <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+          <a href="#" class="stretched-link">Go somewhere</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="articulo">
+  <center> <p id="sorpresa">Viajes Sorpresas</p></center>
+  <div class="">
+    <img src="" alt="">
+  </div>
+</article>
+
+
+<script type="text/javascript">
+    function hoteles(){
+      let hotel=open();
+      hotel.document.write("aca iria hotel etc")
+    }
+    function sesion(){
+      let session = open('','','status=yes width=700 height=500 menubar=yes');
+      session.document.write('<center>');
+      session.document.write('<br>');
+      session.document.write('<p>!Bienvenido aqui podras iniciar session!</p>');
+      session.document.write('<br>');
+      session.document.write('Ingrese el Correo Electronico');
+      session.document.write('<br>');
+      session.document.write('<input type="text" name="" value="">');
+      session.document.write('<br>');
+      session.document.write('Ingrese la Contraseña');
+      session.document.write('<br>');
+      session.document.write('<input type="password" value="">');
+    }
+    </script>
+  </body>
+</html>
