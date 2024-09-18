@@ -8,6 +8,7 @@
     <title></title>
   </head>
   <body>
+                                <!--Encabezado-->
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -23,8 +24,9 @@
           </button>
       </div>
     </nav>
+                                      <!--cierre-->
 
-
+                                <!--Barra de navegacion-->
     <script src="https://kit.fontawesome.com/401cbb8deb.js" crossorigin="anonymous"></script>
     <ul id="nav" style="margin-top: 5px;" class="nav nav-tabs">
       <li class="nav-item" >
@@ -48,12 +50,11 @@
       <input id="nav" style="margin-left: 100px;" type="search" name="" value="Buscador">
       <button id="nav" style="margin-left: 100px;" type="button"name="button" onclick="sesion()">Iniciar Session</button>
     </ul>
-
+                                    <!--Cierre-->
 <br>
 
-
+                                <!--Carrusel inicial-->
   <center> <p style="font-size: 22px; font-family: serif;">Lugares Mas Visitados</p></center>
-
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -105,9 +106,9 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+                                    <!--CIERRE-->
 
-
-<!--Viajes Sopresa------------------------------------------------------------------------------------------------------------------------->
+                                    <!--Viajes Sopresa-->
 <br>
   <center> <p id="sorpresa">Viajes Sorpresas</p></center>
 <article style="display: flex;" class="articulo">
@@ -118,7 +119,7 @@
       <h5 class="card-title">Paquete Sorpresa</h5>
       <h6 class="card-title">Europa</h6>
       <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
-      <a href="#" class="btn" style="width: 100px; height: 38px;">Comprar</a>
+      <a href="#" class="btn" style="width: 100px; height: 38px;" onclick="pago()">Comprar</a>
       <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Mas info
       </button>
@@ -150,7 +151,7 @@
       <h5 class="card-title">Paquete Sorpresa</h5>
       <h6 class="card-title">Asia</h6>
       <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
-      <a href="#" class="btn" style="width: 100px; height: 38px;">Comprar</a>
+      <a href="#" class="btn" style="width: 100px; height: 38px;" onclick="pago()">Comprar</a>
       <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Mas info
       </button>
@@ -181,7 +182,7 @@
       <h5 class="card-title">Paquete Sorpresa</h5>
       <h6 class="card-title">Oceania</h6>
       <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
-      <a href="#" class="btn" style="width: 100px; height: 38px;">Comprar</a>
+      <a href="#" class="btn" style="width: 100px; height: 38px;" onclick="pago()">Comprar</a>
       <!-- Button trigger modal -->
       <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Mas info
@@ -213,7 +214,7 @@
       <h5 class="card-title">Paquete Sorpresa</h5>
       <h6 class="card-title">Africa</h6>
       <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
-      <a href="#" class="btn" style="width: 100px; height: 38px;">Comprar</a>
+      <a href="#" class="btn" style="width: 100px; height: 38px;" onclick="pago()">Comprar</a>
       <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Mas info
       </button>
@@ -244,7 +245,7 @@
       <h5 class="card-title">Paquete Sorpresa</h5>
       <h6 class="card-title">America</h6>
       <p class="card-text">Estos son paquetes armados por la aerolinea el cual sera sorpresa para el comprador, este paquete contiene destino, forma de viajar y hotel incluido.</p>
-      <a href="#" class="btn" style="width: 100px; height: 38px;">Comprar</a>
+      <a href="#" class="btn" style="width: 100px; height: 38px;" onclick="pago()">Comprar</a>
       <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Mas info
       </button>
@@ -268,8 +269,36 @@
       </div>
     </div>
   </div>
-
 </article>
+                                            <!--Cierre-->
+                                      <!--Destinos del mundo-->
+
+
+<center><h3>Seleccione El continente que desea visitar</h3>
+  <select class="" name="">
+    <option value="America"><a href="#">America</a></option>
+    <option value="Europa"><a href="#">Europa</a></option>
+    <option value="Asia"><a href="#">Asia</a></option>
+    <option value="Oceania"><a href="#">Oceania</a></option>
+    <option value="Africa"><a href="#">Africa</a></option>
+  </select>
+</center>
+
+<center><h4 id="Europa">Europa</h4></center>
+<!--paises de europa y 5 ciudades-->
+
+<center><h4 id="America">America</h4></center>
+<!--paises de europa y 5 ciudades-->
+
+<center><h4 id="Asia">Asia</h4></center>
+<!--paises de europa y 5 ciudades-->
+
+<center><h4 id="Oceania">Oceania</h4></center>
+<!--paises de europa y 5 ciudades-->
+
+<center><h4 id="Africa">Africa</h4></center>
+<!--paises de europa y 5 ciudades-->
+
 
 
 <script type="text/javascript">
