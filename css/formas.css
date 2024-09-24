@@ -1,0 +1,48 @@
+.autos{
+  display: flex;
+  flex-grow: 1;
+  background: #fff;
+  width: 90%;
+  padding: 1rem;
+  margin: 10px auto;
+  max-width: 500px;
+  box-shadow: 0 0 10px -3px rgb(0, 0, 0, 0.5);
+  border-radius: 6px;
+  border-left: 4px solid #853bf4;
+  margin-left: 20px;
+}
+.marca{
+  display: inline-block;
+  color: #ff651e;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow:
+            -0.5px -0.5px 2px #0e189c,
+            -0.5px -0.5px 2px #000000,
+            -0.5px -0.5px 2px #100e91,
+            -0.5px -0.5px 2px #000000;
+}
+.txt{
+  display: grid;
+  grid-auto-rows:var(--rows,0fr);
+  transition: .4s grid-template-rows;
+}
+.desplegada{
+  overflow: hidden;
+  font-size: 20px;
+}
+.autos:hover{
+  --rows:1fr;
+}
+
+.onix{
+  margin-left: 5px;
+  width: 200px;
+  height: 200px;
+}
+.s10{
+  margin-left: 5px;
+  width: 250px;
+  height: 200px;
+}
