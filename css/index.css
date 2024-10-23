@@ -6,3 +6,55 @@
   font-size: 22px;
   font-family: serif;
 }
+body{
+background-color:#dac3b3;
+}
+.nav-link{
+  text-decoration: none;
+  color:black;
+}
+.container-fluid{
+  background-color:#eed8c9;
+}
+.ns{
+  background-color:#eed8c9;
+}
+.mt-0{
+  display: inline-block;
+  color: #000b29;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow:
+}
+.carousel-inner{
+    background-color:#bf9a77;
+}
+.card{
+  background-color:#bf9a77;
+}
+/*Footer*/
+.redes{
+  display: flex;
+  list-style-type: none;
+  margin-left: 50px;
+  color: black;
+  width: 100px;  
+  transition: transform 0.3s; 
+}
+.redes .wasap:hover{
+transform: scale(1.2); 
+}
+.redes .correo:hover {
+    transform: scale(1.2); 
+}
+.redes .ig:hover {
+    transform: scale(1.2);  
+}
+.redes .tw:hover {
+    transform: scale(1.2); 
+}
+
+.redes .face:hover {
+    transform: scale(1.2); 
+}
