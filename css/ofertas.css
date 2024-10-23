@@ -1,0 +1,59 @@
+body{
+background-color:#dac3b3;
+}
+.nav-link{
+  text-decoration: none;
+  color:black;
+}
+.container-fluid{
+  background-color:#eed8c9;
+}
+.ns{
+  background-color:#eed8c9;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.fijo-boton {
+
+  position: fixed;
+  bottom: 10px;  /* A 10px del borde bajo de la pantalla */
+  left: 10px;    /* A 10px del borde izquierdo de la pantalla */
+  padding: 10px 20px;
+  background-color: #dac3b3;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;  /* Asegura que el botón esté por encima de otros elementos */
+}
+
+.fijo-boton:hover {
+  background-color: #995959;
+}
+.redes{
+  display: flex;
+  list-style-type: none;
+  margin-left: 50px;
+  color: black;
+  width: 100px;  /* Tamaño inicial del ícono */
+  transition: transform 0.3s;  /* Suaviza la transición */
+}
+.redes .wasap:hover{
+transform: scale(1.4);  /* Agranda el ícono un 20% al pasar el mouse */
+}
+.redes .correo:hover {
+    transform: scale(1.4);  /* Agranda el ícono un 20% al pasar el mouse */
+}
+.redes .ig:hover {
+    transform: scale(1.4);  /* Agranda el ícono un 20% al pasar el mouse */
+}
+.redes .tw:hover {
+    transform: scale(1.4);  /* Agranda el ícono un 20% al pasar el mouse */
+}
+
+.redes .face:hover {
+    transform: scale(1.4);  /* Agranda el ícono un 20% al pasar el mouse */
+}
