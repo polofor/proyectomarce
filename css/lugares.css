@@ -17,14 +17,14 @@ margin-bottom: 50px;
   margin-right:50px;
 /* efecto*/
   flex-grow: 1;
-  background: #fff;
+  background: #d5c3aa;
   width: 100%;
   padding: 1rem;
   margin: 10px auto;
   max-width: 500px;
   box-shadow: 0 0 10px -3px rgb(0, 0, 0, 0.5);
   border-radius: 6px;
-  border-left: 4px solid #853bf4;
+  border-left: 4px solid #4e2d1b;
 }
 }
 #carousel3{
@@ -33,44 +33,84 @@ margin-bottom: 50px;
   margin-right: 10px;
 
 }
+.moscu{
+font-size: 20px;
+font-family: sans-serif;
+font-style: italic;
+}
 .articulo1{
   flex-grow: 1;
-  background: #fff;
+  background: #d5c3aa;
   width: 80%;
   padding: 1rem;
   margin: 10px auto;
   max-width: 500px;
   box-shadow: 0 0 10px -3px rgb(0, 0, 0, 0.5);
   border-radius: 6px;
-  border-left: 4px solid #853bf4;
+  border-left: 4px solid #4e2d1b;
 }
 
 /* efetco3 */
 #carousel3{
   flex-grow: 1;
-  background: #fff;
+  background: #d5c3aa;
   width: 80%;
   padding: 1rem;
   margin: 10px auto;
   max-width: 500px;
   box-shadow: 0 0 10px -3px rgb(0, 0, 0, 0.5);
   border-radius: 6px;
-  border-left: 4px solid #853bf4;
+  border-left: 4px solid #4e2d1b;
 }
 .txt{
   display: inline-block;
-  color: #ff651e;
+  color: #000b29;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5rem;
   text-shadow:
-            -0.5px -0.5px 2px #0e189c,
-            -0.5px -0.5px 2px #000000,
-            -0.5px -0.5px 2px #100e91,
-            -0.5px -0.5px 2px #000000;
+
+            -0.5px -0.5px 2px #100e91;
 }
 body{
-  background-image: url(img/ns.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color:#fef2e4;
+}
+.ns{
+  background-color:#f1f3ce;
+}
+#nav{
+  text-decoration:none;
+  color: black;
+}
+.nav-link{
+  text-decoration: none;
+  color:black;
+}
+.container-fluid{
+  background-color:#f1f3ce;
+}
+
+.redes{
+  display: flex;
+  list-style-type: none;
+  margin-left: 50px;
+  color: black;
+  width: 100px;  
+  transition: transform 0.3s;  
+}
+.redes .wasap:hover{
+transform: scale(1.4); 
+}
+.redes .correo:hover {
+    transform: scale(1.4); 
+}
+.redes .ig:hover {
+    transform: scale(1.4);
+}
+.redes .tw:hover {
+    transform: scale(1.4); 
+}
+
+.redes .face:hover {
+    transform: scale(1.4);  
 }
